@@ -6,7 +6,7 @@
   <link href="https://ericwong5021.github.io/atom.xml" rel="self"/>
   
   <link href="https://ericwong5021.github.io/"/>
-  <updated>2023-01-03T00:25:44.316Z</updated>
+  <updated>2023-01-03T03:29:49.800Z</updated>
   <id>https://ericwong5021.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我的第一篇博客</title>
+    <link href="https://ericwong5021.github.io/2023/01/03/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://ericwong5021.github.io/2023/01/03/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
+    <published>2023-01-03T03:29:10.000Z</published>
+    <updated>2023-01-03T03:29:49.800Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="哈哈哈，我也是有自己博客的人了！"><a href="#哈哈哈，我也是有自己博客的人了！" class="headerlink" title="哈哈哈，我也是有自己博客的人了！"></a>哈哈哈，我也是有自己博客的人了！</h3><p>基于种种巧合，让我在无意中发现了 Hexo 这个超强的开源博客框架，其实很早之前就有个自己写博客的想法，但奈何一直没有什么动力去做，刚好最近在学习 Linux，也打算把自己学习的过程记录下来，所以这个地方以后就用来记录学习和生活的碎片吧。<br>我没写过什么东西，文笔很糟糕，也没有什么逻辑，但还是希望能够把这个博客坚持写下去，接下来关于这个博客还有好多东西要学习：</p><ul><li>Hexo 框架熟悉</li><li>Markdown 语法学习</li><li>主题风格配置</li></ul><h4 id="再接再厉吧！"><a href="#再接再厉吧！" class="headerlink" title="再接再厉吧！"></a>再接再厉吧！</h4>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;哈哈哈，我也是有自己博客的人了！&quot;&gt;&lt;a href=&quot;#哈哈哈，我也是有自己博客的人了！&quot; class=&quot;headerlink&quot; title=&quot;哈哈哈，我也是有自己博客的人了！&quot;&gt;&lt;/a&gt;哈哈哈，我也是有自己博客的人了！&lt;/h3&gt;&lt;p&gt;基于种种巧合，让我在无意中发</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
