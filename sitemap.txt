@@ -5,7 +5,6 @@ https://ericwong5021.github.io/2023/01/04/post-2023010401/
 https://ericwong5021.github.io/tags/index.html
 https://ericwong5021.github.io/link/index.html
 https://ericwong5021.github.io/categories/index.html
-https://ericwong5021.github.io/2023/01/03/hello-world/
 https://ericwong5021.github.io/
 https://ericwong5021.github.io/tags/%E8%B8%A9%E5%9D%91/
 https://ericwong5021.github.io/tags/Ubuntu/
