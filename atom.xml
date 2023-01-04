@@ -6,7 +6,7 @@
   <link href="https://ericwong5021.github.io/atom.xml" rel="self"/>
   
   <link href="https://ericwong5021.github.io/"/>
-  <updated>2023-01-03T03:29:49.800Z</updated>
+  <updated>2023-01-04T04:17:07.740Z</updated>
   <id>https://ericwong5021.github.io/</id>
   
   <author>
@@ -17,11 +17,63 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>VMware自动挂载共享文件夹</title>
+    <link href="https://ericwong5021.github.io/2023/01/04/post-2023010402/"/>
+    <id>https://ericwong5021.github.io/2023/01/04/post-2023010402/</id>
+    <published>2023-01-04T03:43:04.000Z</published>
+    <updated>2023-01-04T04:17:07.740Z</updated>
+    
+    <content type="html"><![CDATA[<p>VMware有个非常实用的共享文件夹功能，能够在<code>/mnt/hgfs/</code>路经挂载一个与主机共享文件夹，便于主机和虚拟机之间传输文件。<br>但问题是，每次重启Ubuntu这个共享文件夹就消失了，需要重新挂载（即使设置了自动挂载也不行，具体原因未知）。<br>这当然非常麻烦且不优雅，于是有了如下方法：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo gedit /etc/fstab</span><br></pre></td></tr></table></figure><p>在fstab文件新增一行：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.host:/ /mnt/hgfs fuse.vmhgfs-fuse allow_other,defaults 0 0</span><br></pre></td></tr></table></figure><p>至此，共享文件夹的自动挂载就设置好了。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;VMware有个非常实用的共享文件夹功能，能够在&lt;code&gt;/mnt/hgfs/&lt;/code&gt;路经挂载一个与主机共享文件夹，便于主机和虚拟机之间传输文件。&lt;br&gt;但问题是，每次重启Ubuntu这个共享文件夹就消失了，需要重新挂载（即使设置了自动挂载也不行，具体原因未知）。&lt;</summary>
+      
+    
+    
+    
+    
+    <category term="Ubuntu" scheme="https://ericwong5021.github.io/tags/Ubuntu/"/>
+    
+    <category term="VMware" scheme="https://ericwong5021.github.io/tags/VMware/"/>
+    
+    <category term="开发日常" scheme="https://ericwong5021.github.io/tags/%E5%BC%80%E5%8F%91%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的vscode不能输入中文？</title>
+    <link href="https://ericwong5021.github.io/2023/01/04/post-2023010401/"/>
+    <id>https://ericwong5021.github.io/2023/01/04/post-2023010401/</id>
+    <published>2023-01-04T00:32:04.000Z</published>
+    <updated>2023-01-04T01:21:46.613Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="我的vscode不能输入中文？"><a href="#我的vscode不能输入中文？" class="headerlink" title="我的vscode不能输入中文？"></a>我的vscode不能输入中文？</h4><p>事情是这样的，我最近的主要开发环境和博客的部署环境都用的是Ubuntu虚拟机，但是我今天突然发现我在Ubuntu下的vscode是没办法输入中文的！（就这我居然还用了好一阵子了）<br>明明在其他软件上切到中文输入，但是一点进vscode就只能英文输入了，想要输入中文还得在其他软件写好了复制进vscode，简直不能忍！<br>经过一番搜索发现原因是：</p><blockquote><p>Ubuntu的应用市场下载的code，安装的VSCode是snap的削减版本，不支持中文。</p></blockquote><p>好吧，再见，麻溜的!</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo snap remove code</span><br></pre></td></tr></table></figure><p>我直接去<a href="https://code.visualstudio.com/">vscode官网</a>下一个<br>然后：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd ~/Download</span><br><span class="line">sudo dpkg -i code_1.74.2-1671533413_amd64.deb</span><br></pre></td></tr></table></figure><p>再打开vscode就可以输入中文了，完美解决～</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;我的vscode不能输入中文？&quot;&gt;&lt;a href=&quot;#我的vscode不能输入中文？&quot; class=&quot;headerlink&quot; title=&quot;我的vscode不能输入中文？&quot;&gt;&lt;/a&gt;我的vscode不能输入中文？&lt;/h4&gt;&lt;p&gt;事情是这样的，我最近的主要开发环境和</summary>
+      
+    
+    
+    
+    
+    <category term="踩坑" scheme="https://ericwong5021.github.io/tags/%E8%B8%A9%E5%9D%91/"/>
+    
+    <category term="Ubuntu" scheme="https://ericwong5021.github.io/tags/Ubuntu/"/>
+    
+    <category term="vscode" scheme="https://ericwong5021.github.io/tags/vscode/"/>
+    
+  </entry>
+  
+  <entry>
     <title>我的第一篇博客</title>
     <link href="https://ericwong5021.github.io/2023/01/03/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
     <id>https://ericwong5021.github.io/2023/01/03/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
     <published>2023-01-03T03:29:10.000Z</published>
-    <updated>2023-01-03T03:29:49.800Z</updated>
+    <updated>2023-01-04T00:34:32.235Z</updated>
     
     <content type="html"><![CDATA[<h3 id="哈哈哈，我也是有自己博客的人了！"><a href="#哈哈哈，我也是有自己博客的人了！" class="headerlink" title="哈哈哈，我也是有自己博客的人了！"></a>哈哈哈，我也是有自己博客的人了！</h3><p>基于种种巧合，让我在无意中发现了 Hexo 这个超强的开源博客框架，其实很早之前就有个自己写博客的想法，但奈何一直没有什么动力去做，刚好最近在学习 Linux，也打算把自己学习的过程记录下来，所以这个地方以后就用来记录学习和生活的碎片吧。<br>我没写过什么东西，文笔很糟糕，也没有什么逻辑，但还是希望能够把这个博客坚持写下去，接下来关于这个博客还有好多东西要学习：</p><ul><li>Hexo 框架熟悉</li><li>Markdown 语法学习</li><li>主题风格配置</li></ul><h4 id="再接再厉吧！"><a href="#再接再厉吧！" class="headerlink" title="再接再厉吧！"></a>再接再厉吧！</h4>]]></content>
     
@@ -33,6 +85,8 @@
     
     
     
+    
+    <category term="生活随笔" scheme="https://ericwong5021.github.io/tags/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
