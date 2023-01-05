@@ -1,3 +1,4 @@
+https://ericwong5021.github.io/2023/01/05/post-2023010501/
 https://ericwong5021.github.io/footprint/index.html
 https://ericwong5021.github.io/about/index.html
 https://ericwong5021.github.io/categories/index.html
@@ -13,3 +14,4 @@ https://ericwong5021.github.io/tags/vscode/
 https://ericwong5021.github.io/tags/VMware/
 https://ericwong5021.github.io/tags/%E5%BC%80%E5%8F%91%E6%97%A5%E5%B8%B8/
 https://ericwong5021.github.io/tags/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/
+https://ericwong5021.github.io/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%BC%80%E5%8F%91-RK3568-AMP%E5%BC%80%E5%8F%91/

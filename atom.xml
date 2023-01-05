@@ -6,7 +6,7 @@
   <link href="https://ericwong5021.github.io/atom.xml" rel="self"/>
   
   <link href="https://ericwong5021.github.io/"/>
-  <updated>2023-01-04T04:17:07.740Z</updated>
+  <updated>2023-01-05T03:40:59.950Z</updated>
   <id>https://ericwong5021.github.io/</id>
   
   <author>
@@ -15,6 +15,21 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>RK3568 AMP开发笔记（一）：环境搭建</title>
+    <link href="https://ericwong5021.github.io/2023/01/05/post-2023010501/"/>
+    <id>https://ericwong5021.github.io/2023/01/05/post-2023010501/</id>
+    <published>2023-01-05T03:36:35.000Z</published>
+    <updated>2023-01-05T03:40:59.950Z</updated>
+    
+    
+    
+    
+    
+    <category term="嵌入式开发 RK3568 AMP开发" scheme="https://ericwong5021.github.io/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%BC%80%E5%8F%91-RK3568-AMP%E5%BC%80%E5%8F%91/"/>
+    
+  </entry>
   
   <entry>
     <title>VMware自动挂载共享文件夹</title>

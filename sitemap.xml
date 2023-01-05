@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ericwong5021.github.io/2023/01/05/post-2023010501/</loc>
+    
+    <lastmod>2023-01-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ericwong5021.github.io/footprint/index.html</loc>
     
     <lastmod>2023-01-05</lastmod>
@@ -119,6 +128,13 @@
   
   <url>
     <loc>https://ericwong5021.github.io/tags/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2023-01-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ericwong5021.github.io/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%BC%80%E5%8F%91-RK3568-AMP%E5%BC%80%E5%8F%91/</loc>
     <lastmod>2023-01-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
