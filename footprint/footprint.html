@@ -1,0 +1,105 @@
+
+
+<html>
+	<head>
+                <meta charset="UTF-8">
+
+		<!--引入jQuery框架-->
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/L-20021213/footprint/js/jquery-1.9.1.min.js"></script>
+		<!--引入jVectorMap库-->
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/L-20021213/footprint/js/jquery-jvectormap-1.2.2.min.js"></script>
+		<!--引入样式表-->
+		<link href="https://cdn.jsdelivr.net/gh/L-20021213/footprint/js/jquery-jvectormap-1.2.2.css" rel="stylesheet" media="screen">
+
+
+		<!--引入中国地图数据库-->
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/L-20021213/footprint/js/jquery-jvectormap-cn-merc-en.js"></script>
+	
+		<!--引入美国地图数据库-->
+		<!--script type="text/javascript" src="js/jquery-jvectormap-us-aea.js"></script-->
+		<!--引入世界地图数据库-->
+		<!--script type="text/javascript" src="js/jquery-jvectormap-world-mill.js"></script-->
+	
+	</head>
+<body>
+	<!--background-color: 地图背景颜色-->
+	<div id="map" style="background-color:#353535"> </div>
+	<script>
+		$('#map').vectorMap({
+
+			// 此处更改地图
+			map: 'cn_merc_en',   // 中国地图
+			//map: 'us_aea',     // 美国地图
+			//map: 'world_mill', // 世界地图
+
+
+			backgroundColor: 'transparent',
+			zoomMin: 0.9, // 鼠标缩放时的最小比例
+			zoomMax: 10, // 鼠标缩放时的最大比例
+			focusOn: {
+				x: 0.55,
+				y: 2,
+				scale: 0.9
+			},
+			regionStyle: {
+				initial: {
+					fill: '#e5e5e5',   // 地图颜色
+					"fill-opacity": 1, // 省份（州）是否隐藏，鼠标滑动时显示; 1：显示，2：隐藏。
+					stroke: 'none',
+					"stroke-width": 0,
+					"stroke-opacity": 1
+				},
+				hover: {
+					fill: '#ccc',  // 鼠标滑动至某省份的高亮颜色。
+					"fill-opacity": 0.8
+				},
+				selected: {
+					fill: 'yellow'
+				},
+				selectedHover: {}
+			},
+			markerStyle: {
+		        initial: {
+		            fill: '#fd8888', // 足迹位置的填充颜色
+		            stroke: '#fff'   // 足迹位置的描边颜色
+		        },
+				hover: {
+					fill: '#fd2020', // 鼠标滑动至足迹位置后的填充颜色
+					stroke: '#fff',  // 鼠标滑动至足迹位置后的描边颜色
+					"fill-opacity": 0.8
+				},
+		    },
+			markers: [ // 足迹位置
+	
+				// {latLng: [经度（保留两位小数）, 纬度（保留两位小数）], name: '城市名称'},
+				// 推荐查询经纬度网站：http://www.gpsspg.com/maps.htm
+	
+		        {latLng: [31.23,121.49], name: '上海'},
+		        {latLng: [31.57,121.63], name: '上海-崇明岛'},
+		        {latLng: [32.35,119.89], name: '泰州'},
+		        {latLng: [32.20,120.03], name: '泰兴'},
+		        {latLng: [32.00,120.25], name: '靖江'},
+		        {latLng: [32.38,119.34], name: '扬州'},
+		        {latLng: [32.08,118.80], name: '南京'},
+		        {latLng: [31.58,120.30], name: '无锡'},
+		        {latLng: [31.32,120.61], name: '苏州'},
+		        {latLng: [31.78,119.97], name: '常州'},
+		        {latLng: [32.06,120.86], name: '南通'},
+		        {latLng: [29.60,119.05,], name: '杭州-千岛湖'},
+		        {latLng: [30.22,120.12], name: '杭州-西湖'},
+		        {latLng: [34.64,119.28], name: '连云港-花果山'},
+			{latLng: [31.63,119.31], name: '常州-溧阳'},
+			{latLng: [30.76,120.76], name: '嘉兴'},
+			{latLng: [32.19,119.43], name: '镇江'},
+			{latLng: [32.22,119.81], name: '镇江-扬中'},
+			{latLng: [31.87,120.27], name: '江阴'},
+			{latLng: [31.69,120.78], name: '常熟'},
+			{latLng: [33.14,119.72], name: '兴化'},
+			{latLng: [32.62,120.09], name: '姜堰'},
+			{latLng: [32.78,119.45], name: '高邮'},
+				
+		    ]
+		});
+	</script>
+</html>
+

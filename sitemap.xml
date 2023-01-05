@@ -4,7 +4,16 @@
   <url>
     <loc>https://ericwong5021.github.io/about/index.html</loc>
     
-    <lastmod>2023-01-04</lastmod>
+    <lastmod>2023-01-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ericwong5021.github.io/footprint/footprint.html</loc>
+    
+    <lastmod>2023-01-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -20,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://ericwong5021.github.io/about/footprint/index.html</loc>
+    <loc>https://ericwong5021.github.io/footprint/index.html</loc>
     
     <lastmod>2023-01-04</lastmod>
     
@@ -73,19 +82,10 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://ericwong5021.github.io/about/footprint/README.html</loc>
-    
-    <lastmod>2022-05-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://ericwong5021.github.io/</loc>
-    <lastmod>2023-01-04</lastmod>
+    <lastmod>2023-01-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -93,42 +93,42 @@
   
   <url>
     <loc>https://ericwong5021.github.io/tags/%E8%B8%A9%E5%9D%91/</loc>
-    <lastmod>2023-01-04</lastmod>
+    <lastmod>2023-01-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ericwong5021.github.io/tags/Ubuntu/</loc>
-    <lastmod>2023-01-04</lastmod>
+    <lastmod>2023-01-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ericwong5021.github.io/tags/vscode/</loc>
-    <lastmod>2023-01-04</lastmod>
+    <lastmod>2023-01-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ericwong5021.github.io/tags/VMware/</loc>
-    <lastmod>2023-01-04</lastmod>
+    <lastmod>2023-01-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ericwong5021.github.io/tags/%E5%BC%80%E5%8F%91%E6%97%A5%E5%B8%B8/</loc>
-    <lastmod>2023-01-04</lastmod>
+    <lastmod>2023-01-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://ericwong5021.github.io/tags/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2023-01-04</lastmod>
+    <lastmod>2023-01-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
