@@ -6,7 +6,7 @@
   <link href="https://ericwong5021.github.io/atom.xml" rel="self"/>
   
   <link href="https://ericwong5021.github.io/"/>
-  <updated>2023-01-05T07:59:54.574Z</updated>
+  <updated>2023-01-06T09:01:19.176Z</updated>
   <id>https://ericwong5021.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>搜狗输入法安装</title>
+    <link href="https://ericwong5021.github.io/2023/01/06/post-20230106/"/>
+    <id>https://ericwong5021.github.io/2023/01/06/post-20230106/</id>
+    <published>2023-01-06T08:34:33.000Z</published>
+    <updated>2023-01-06T09:01:19.176Z</updated>
+    
+    <content type="html"><![CDATA[<p>ibus的智障拼音用的人火大，用户体验极差，果断换<a href="https://shurufa.sogou.com/">宇宙最强拼音输入法</a></p><p>iBus直接彻底删除掉吧</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">sudo dpkg -i sogoupinyin_xxx_amd64.deb</span><br><span class="line">sudo apt install fcitx</span><br><span class="line"></span><br><span class="line">sudo <span class="built_in">cp</span> /usr/share/applications/fcitx.desktop /etc/xdg/autostart/</span><br><span class="line"></span><br><span class="line">sudo apt purge ibus<span class="comment">#彻底删除ibus</span></span><br><span class="line"></span><br><span class="line">sudo apt install libqt5qml5 libqt5quick5 libqt5quickwidgets5 qml-module-qtquick2</span><br><span class="line">sudo apt install libgsettings-qt1</span><br><span class="line"><span class="comment">#这两个句依赖一定要按顺序装，不然没法用</span></span><br></pre></td></tr></table></figure><p>装完在系统设置里将输入法系统切换成Fcitx之后reboot一下就好了</p><p>另外Fcitx有个很沙雕的简繁切换组件，用的快捷键居然是<code>Ctrl+Shift+F</code>,大爷的，我找了好久才找到，直接取消绑定这个快捷键就行了。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;ibus的智障拼音用的人火大，用户体验极差，果断换&lt;a href=&quot;https://shurufa.sogou.com/&quot;&gt;宇宙最强拼音输入法&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;iBus直接彻底删除掉吧&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table</summary>
+      
+    
+    
+    
+    
+    <category term="Ubuntu" scheme="https://ericwong5021.github.io/tags/Ubuntu/"/>
+    
+    <category term="输入法安装" scheme="https://ericwong5021.github.io/tags/%E8%BE%93%E5%85%A5%E6%B3%95%E5%AE%89%E8%A3%85/"/>
+    
+  </entry>
   
   <entry>
     <title>记录一些在看的文章</title>
