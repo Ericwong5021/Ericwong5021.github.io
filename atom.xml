@@ -76,7 +76,7 @@
     <link href="https://ericwong5021.github.io/2023/01/05/post-2023010501/"/>
     <id>https://ericwong5021.github.io/2023/01/05/post-2023010501/</id>
     <published>2023-01-05T03:36:35.000Z</published>
-    <updated>2023-01-05T07:59:54.574Z</updated>
+    <updated>2023-01-07T00:40:12.328Z</updated>
     
     <content type="html"><![CDATA[<h4 id="记录一下在看的一些文章，如果对我来说有价值，我会把链接挂在博客的某个固定位置。"><a href="#记录一下在看的一些文章，如果对我来说有价值，我会把链接挂在博客的某个固定位置。" class="headerlink" title="记录一下在看的一些文章，如果对我来说有价值，我会把链接挂在博客的某个固定位置。"></a>记录一下在看的一些文章，如果对我来说有价值，我会把链接挂在博客的某个固定位置。</h4><p><a href="https://www.guyuehome.com/Bubble/detail/id/66110">ROS开发心得</a>：似乎是一个ROS学习平台，可以了解一下</p><p>机器人控制理论相关的两个博主：</p><p><a href="https://space.bilibili.com/230105574/channel/index">B站的 DR CAN博士</a>,非常详细的从工程数学、系统建模到自控和现控、非线性控制，再到卡尔曼滤波讲解，能够快速带你熟悉该领域，通俗易懂</p><p><a href="https://www.zhihu.com/column/c_217937043">知乎博主J Pan</a> ，据自己介绍是位航空工程师，飞行器控制是最典型的欠驱动系统控制，涉及到的控制理论和相关数学、物理基础更加全面，更难能可贵的是该博主写的内容十分详实，非常适合搞控制工程的同学从底层到工程实现构建知识体系，与DR CAN博士的视频讲解配合学习效果十分好。</p><p><a href="https://coolshell.cn/">这个博客</a>的作者是技术圈基本无人不知的技术大牛，江湖人称耗子叔，网名左耳朵耗子，原名叫陈皓，先后在阿里巴巴、亚马逊、汤森路透等大企业担任要职，职业背景是金融和电子商务行业，主要研究方向是一些大规模分布式系统的基础架构。目前在创业，创办了 MegaEase 公司，致力于为企业提供高可用、高并发、高性能的分布式技术产品，同时也提供物联网（loT）方向的技术产品。从大学毕业到现在 20 多年了仍然在写代码，从 2002 年开始写技术博客，后面一直在现在这个博客上分享一些技术文章和一些技术见解和心得。</p>]]></content>
     
@@ -89,7 +89,11 @@
     
     
     
-    <category term="ROS 自动控制 机器人控制" scheme="https://ericwong5021.github.io/tags/ROS-%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6-%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%8E%A7%E5%88%B6/"/>
+    <category term="ROS" scheme="https://ericwong5021.github.io/tags/ROS/"/>
+    
+    <category term="自动控制" scheme="https://ericwong5021.github.io/tags/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6/"/>
+    
+    <category term="机器人控制" scheme="https://ericwong5021.github.io/tags/%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%8E%A7%E5%88%B6/"/>
     
   </entry>
   
