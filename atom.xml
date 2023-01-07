@@ -43,6 +43,35 @@
   </entry>
   
   <entry>
+    <title>机器人学前导知识</title>
+    <link href="https://ericwong5021.github.io/2023/01/05/post-2023010701/"/>
+    <id>https://ericwong5021.github.io/2023/01/05/post-2023010701/</id>
+    <published>2023-01-05T15:00:22.000Z</published>
+    <updated>2023-01-07T00:39:13.756Z</updated>
+    
+    <content type="html"><![CDATA[<p>想学点机器人学相关知识，为以后的工作提供可能性：</p><ul><li><p><input disabled="" type="checkbox"> 数学知识：</p><ul><li><input disabled="" type="checkbox"> <strong>线性代数</strong></li><li><input disabled="" type="checkbox"> 刚体位姿的坐标描述和变换</li><li><input disabled="" type="checkbox"> D-H坐标变换</li><li><input disabled="" type="checkbox"> 雅可比矩阵</li><li><input disabled="" type="checkbox"> 拉格朗日动力学</li><li><input disabled="" type="checkbox"> <em>矩阵论</em></li><li><input disabled="" type="checkbox"> <em>李群</em></li><li><input disabled="" type="checkbox"> <em>李代数</em></li></ul></li><li><p><input disabled="" type="checkbox"> 机器人学</p><ul><li><input disabled="" type="checkbox"> 机器人学导论</li><li><input disabled="" type="checkbox"> 空间描述和坐标变换</li><li><input disabled="" type="checkbox"> 机械臂运动学</li><li><input disabled="" type="checkbox"> 机械臂逆运动学</li><li><input disabled="" type="checkbox"> 机械臂动力学</li><li><input disabled="" type="checkbox"> 轨迹规划</li></ul></li><li><p><input disabled="" type="checkbox"> C&#x2F;C++</p></li><li><p><input disabled="" type="checkbox"> MATLAB</p><ul><li><input disabled="" type="checkbox"> robotics toolbox for matlab</li></ul></li><li><p><input disabled="" type="checkbox"> ROS操作系统</p></li><li><p><input disabled="" type="checkbox"> SLAM机器视觉</p></li></ul><p>总的来说，数学在机器人学是一切的基础，尤其是线性代数，因为矩阵运算在算法中占很大一部分。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;想学点机器人学相关知识，为以后的工作提供可能性：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&gt; 
+数学知识：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&gt; &lt;str</summary>
+      
+    
+    
+    
+    
+    <category term="机器人学" scheme="https://ericwong5021.github.io/tags/%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AD%A6/"/>
+    
+    <category term="运动学" scheme="https://ericwong5021.github.io/tags/%E8%BF%90%E5%8A%A8%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
     <title>记录一些在看的文章</title>
     <link href="https://ericwong5021.github.io/2023/01/05/post-2023010501/"/>
     <id>https://ericwong5021.github.io/2023/01/05/post-2023010501/</id>
