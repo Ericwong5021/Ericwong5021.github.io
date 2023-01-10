@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://ericwong5021.github.io/2023/01/05/post-2023010501/</loc>
+    <loc>https://ericwong5021.github.io/2023/01/10/%E5%81%9C%E6%9B%B4%E4%BA%86/</loc>
     
-    <lastmod>2023-01-07</lastmod>
+    <lastmod>2023-01-10</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -12,6 +12,15 @@
   
   <url>
     <loc>https://ericwong5021.github.io/2023/01/05/post-2023010701/</loc>
+    
+    <lastmod>2023-01-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ericwong5021.github.io/2023/01/05/post-2023010501/</loc>
     
     <lastmod>2023-01-07</lastmod>
     
@@ -188,6 +197,13 @@
   
   <url>
     <loc>https://ericwong5021.github.io/tags/%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%8E%A7%E5%88%B6/</loc>
+    <lastmod>2023-01-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ericwong5021.github.io/tags/Hexo/</loc>
     <lastmod>2023-01-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

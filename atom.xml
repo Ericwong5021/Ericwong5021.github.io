@@ -6,7 +6,7 @@
   <link href="https://ericwong5021.github.io/atom.xml" rel="self"/>
   
   <link href="https://ericwong5021.github.io/"/>
-  <updated>2023-01-06T09:01:19.176Z</updated>
+  <updated>2023-01-10T03:38:55.058Z</updated>
   <id>https://ericwong5021.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>停更了</title>
+    <link href="https://ericwong5021.github.io/2023/01/10/%E5%81%9C%E6%9B%B4%E4%BA%86/"/>
+    <id>https://ericwong5021.github.io/2023/01/10/%E5%81%9C%E6%9B%B4%E4%BA%86/</id>
+    <published>2023-01-10T03:16:56.000Z</published>
+    <updated>2023-01-10T03:38:55.058Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="是的，我打算停更博客了"><a href="#是的，我打算停更博客了" class="headerlink" title="是的，我打算停更博客了"></a>是的，我打算停更博客了</h2><p>一开始使用Hexo就是打算把这里当成一个记录学习和技术的一些过程，但是这几天的尝试我发现了更高效的方式达成这一目的：</p><blockquote><p>使用GitHub仓库配合Typora搭建个人云笔记本</p></blockquote><p>虽然现在可以选择的云笔记很多，有道云、印象、OneNote等等等，但是这些平台都过于封闭和商业化了</p><p>在一台新设备使用笔记需要下载应用程序，登录账户，<strong>这常常需要我提供手机验证码！</strong>，重新下载服务器上的笔记，而且往往这一过程充满了网络信号不好，服务器访问异常等玄学问题。。。</p><p>所以现在想想还是算了，直接用GitHub搭建一个私有仓库，随时随地都可以以登录查看并编辑同步，只需要熟练使用最基本的Git功能（这也是我一开始捣鼓这个博客的目的之一）。</p><p>总之，出于众多因素考虑，这个Git Page博客暂时停更（也说不定哪天会突然更几篇）</p><p>好了，这篇就简单写到这里了，咱们江湖再见！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;是的，我打算停更博客了&quot;&gt;&lt;a href=&quot;#是的，我打算停更博客了&quot; class=&quot;headerlink&quot; title=&quot;是的，我打算停更博客了&quot;&gt;&lt;/a&gt;是的，我打算停更博客了&lt;/h2&gt;&lt;p&gt;一开始使用Hexo就是打算把这里当成一个记录学习和技术的一些过程，但</summary>
+      
+    
+    
+    
+    
+    <category term="Hexo" scheme="https://ericwong5021.github.io/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>搜狗输入法安装</title>
@@ -47,7 +69,7 @@
     <link href="https://ericwong5021.github.io/2023/01/05/post-2023010701/"/>
     <id>https://ericwong5021.github.io/2023/01/05/post-2023010701/</id>
     <published>2023-01-05T15:00:22.000Z</published>
-    <updated>2023-01-07T00:39:13.756Z</updated>
+    <updated>2023-01-10T03:38:27.602Z</updated>
     
     <content type="html"><![CDATA[<p>想学点机器人学相关知识，为以后的工作提供可能性：</p><ul><li><p><input disabled="" type="checkbox"> 数学知识：</p><ul><li><input disabled="" type="checkbox"> <strong>线性代数</strong></li><li><input disabled="" type="checkbox"> 刚体位姿的坐标描述和变换</li><li><input disabled="" type="checkbox"> D-H坐标变换</li><li><input disabled="" type="checkbox"> 雅可比矩阵</li><li><input disabled="" type="checkbox"> 拉格朗日动力学</li><li><input disabled="" type="checkbox"> <em>矩阵论</em></li><li><input disabled="" type="checkbox"> <em>李群</em></li><li><input disabled="" type="checkbox"> <em>李代数</em></li></ul></li><li><p><input disabled="" type="checkbox"> 机器人学</p><ul><li><input disabled="" type="checkbox"> 机器人学导论</li><li><input disabled="" type="checkbox"> 空间描述和坐标变换</li><li><input disabled="" type="checkbox"> 机械臂运动学</li><li><input disabled="" type="checkbox"> 机械臂逆运动学</li><li><input disabled="" type="checkbox"> 机械臂动力学</li><li><input disabled="" type="checkbox"> 轨迹规划</li></ul></li><li><p><input disabled="" type="checkbox"> C&#x2F;C++</p></li><li><p><input disabled="" type="checkbox"> MATLAB</p><ul><li><input disabled="" type="checkbox"> robotics toolbox for matlab</li></ul></li><li><p><input disabled="" type="checkbox"> ROS操作系统</p></li><li><p><input disabled="" type="checkbox"> SLAM机器视觉</p></li></ul><p>总的来说，数学在机器人学是一切的基础，尤其是线性代数，因为矩阵运算在算法中占很大一部分。</p>]]></content>
     
